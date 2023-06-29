@@ -1,5 +1,5 @@
 function App() {
-  return <div>Welcome!</div>;
+  return <div>Welcome eunji!</div>;
 }
 
 export default App;
