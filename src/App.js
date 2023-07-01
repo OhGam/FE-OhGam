@@ -1,5 +1,5 @@
 function App() {
-  return <div>Welcome eunji!</div>;
+  return <div className="border">Welcome eunji!</div>;
 }
 
 export default App;
