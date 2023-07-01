@@ -1,5 +1,10 @@
+import Router from "./components/Router";
 function App() {
-  return <div className="text-active-orange">Welcome eunji!</div>;
+  return (
+    <>
+      <Router />
+    </>
+  );
 }
 
 export default App;
