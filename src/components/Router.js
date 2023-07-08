@@ -8,6 +8,7 @@ import Detail from "../pages/Detail";
 import Create from "../pages/Create";
 import LogIn from "../pages/LogIn";
 import SignUp from "../pages/SignUp";
+import Nickname from "../pages/Nickname";
 
 export default function Router() {
   return (
@@ -22,6 +23,7 @@ export default function Router() {
           <Route path="/create" element={<Create />} />
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/nickname" element={<Nickname />} />
           <Route path="*" element={<Main />} />
         </Routes>
       </Layout>
